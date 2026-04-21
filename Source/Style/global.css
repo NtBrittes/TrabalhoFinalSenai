@@ -1,0 +1,68 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f5e6cc;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #8b5e3c;
+  padding: 10px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+div {
+  color: #b79d34;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #8b5e3c;
+  color: white;
+  margin-top: auto;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+    background: rgb(124, 73, 47);
+    width: 250px;       
+    height: 350px;      
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(51, 24, 10, 0.9);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;        /* Ocupa a largura do card */
+    height: 150px;      /* ALTURA FIXA: Todas as fotos ficam iguais */
+    object-fit: cover;  /* O SEGREDO: Corta a foto para caber sem distorcer */
+    border-radius: 5px;
+}
